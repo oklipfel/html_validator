@@ -14,7 +14,7 @@ def validate_html(html):
     '''
 
     # HINT:
-    # use the _extract_tags function below to generate a list of html tags
+    # use  the _extract_tags function below to generate a list of html tags
     # without any extra text;
     # then process these html tags using the balanced parentheses algorithm
     # from the class/book
