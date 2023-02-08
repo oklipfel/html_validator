@@ -51,4 +51,4 @@ def _extract_tags(html):
     ['<strong>', '</strong>']
     '''
 
-    return re.findall('<[\w]+>|<\/[\w]+>', html)
+    return re.findall('<[^>]+>', html)
